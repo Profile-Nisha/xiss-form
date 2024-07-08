@@ -1,0 +1,272 @@
+/* General Styles */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header Styles */
+/* .header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    max-width: 100px;
+}
+
+.header h1, .header h2 {
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+/* Form Section Styles */
+/* .form-section {
+    margin-bottom: 20px;
+}
+
+.form-section h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+} */
+
+/* .form-group input[type="text"], 
+.form-group input[type="date"], 
+.form-group input[type="email"], 
+.form-group select, 
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="file"] {
+    padding: 8px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button[type="button"] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Table Styles */
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+} */
+
+/* table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f9f9f9;
+} */
+
+/* Footer Styles */
+/* .footer {
+    margin-top: 20px;
+}
+
+.general-instructions {
+    margin-top: 20px;
+}
+
+.general-instructions h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.general-instructions p {
+    margin-bottom: 5px;
+} */ */
+
+/* Submit Button Styles */
+/* button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+} */
+
+/* Media Queries */
+/* @media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+} */ 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #e3e0e0; /* Light gray background */
+    padding: 20px; 
+    text-align: center; /* Center-align text */
+    border-bottom: 2px solid #ccc; /* Bottom border for separation */
+    font-family: Arial, sans-serif; /* Choose appropriate font */
+    max-width: 1500px; /* Limit maximum width */
+    margin: 0 auto; 
+}
+
+.logo {
+    max-width: 200px; /* Limit logo size */
+    margin-bottom: 10px; /* Space below the logo */
+}
+
+h1 {
+    font-size: 28px; /* Larger font size for main heading */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #333; /* Darker color for heading */
+}
+
+h2 {
+    font-size: 24px; /* Slightly smaller font size for subheading */
+    margin-bottom: 10px; /* Space below the subheading */
+    color: #555; /* Darker color for subheading */
+}
+
+p {
+    font-size: 16px; /* Normal font size for paragraphs */
+    margin-bottom: 5px; /* Space below paragraphs */
+    color: #666; /* Slightly darker color for paragraphs */
+}
+
+
+
+.header p{
+    font-weight: 500;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+form {
+    /* background-color: #faf7f7; */
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #008cba;
+    font-size: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #cccccc;
+}
+
+button {
+    background-color: #008cba;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+.next-btn,
+.prev-btn {
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+ 
